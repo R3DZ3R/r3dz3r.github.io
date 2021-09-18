@@ -48,9 +48,19 @@ article {
   padding: 20px;
   width: 80%;
   background-color: #FFFFFF;
+}
+
+#main {
   display: flex;
   align-items: flex-start;
+} 
+
+#main div {
+  flex: 1;
 }
+
+#button {
+  align-self: center;
 
 nav {
   width: 20%;
@@ -105,8 +115,9 @@ footer {
 
   
   <article>
-      <h1 id="demo"> </h1>
-      <button type="button" onclick="randomize()" style="padding:30px;align-self:center;">Randomize!</button>
+    <div id="main">
+      <div><h1 id="demo"> </h1></div>
+      <div id="button"><button type="button" onclick="randomize()" style="padding:30px;align-self:center;">Randomize!</button></div>
     </div>
   </article>
 </section>

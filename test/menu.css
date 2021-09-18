@@ -1,0 +1,44 @@
+/* ^^^^^^^^ BELOW IS THE CODE FOR THE MENU ^^^^^^^^^^ */
+#menucontainer {
+height:24px;
+background:#000;
+display:block;
+padding:45px 0 0 15px;
+}
+#menu {
+position:relative;
+display:block;
+height:24px;
+font-size:11px;
+font-weight:bold;
+font-family:Arial,Verdana,Helvitica,sans-serif;
+}
+#menu ul {
+margin:0px;
+padding:0;
+list-style-type:none;
+width:auto;
+}
+#menu ul li {
+display:block;
+float:left;
+margin:0 1px 0 0;
+}
+#menu ul li a {
+display:block;
+float:left;
+color:#fff;
+text-decoration:none;
+padding:5px 20px 0 20px;
+height:19px;
+background:transparent url(images/menu_bg-OFF.gif) no-repeat top left;
+}
+#menu ul li a:hover {
+color:#fff;
+background:transparent url(images/menu_bg-OVER.gif) no-repeat top right;
+}
+#menu ul li a.current,#menu ul li a.current:hover {
+color:#000;
+background:#fff;
+}
+/* ^^^^^^^^ ABOVE IS THE CODE FOR THE MENU ^^^^^^^^^^ */

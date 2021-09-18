@@ -2,7 +2,7 @@ const key = ['Nano', 'Binary', 'Lab', 'Warp', 'Module', 'House', 'Action', 'Ship
 
 function randomize() { 
   var keyl = key.length;
-  var out1 = key[Math.random() * keyl];
-  var out2 = key[Math.random() * keyl];
+  var out1 = key[Math.floor(Math.random() * keyl)];
+  var out2 = key[Math.floor(Math.random() * keyl)];
   document.getElementById("demo").innerHTML = out1.concat(" ", out2);
 }

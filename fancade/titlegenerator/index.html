@@ -1,18 +1,122 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Title Generator!</title>
-    <script src="generator.js"></script>
-  </head>
-  <body>
-    <div style="background-color:tomato;color:white;padding:50px;font-family:verdana;">
-      <section>
-        <article>
-          <h1>Fancade Game Title Generator</h1>
-          <p id="demo">Click the button for result</p>
-          <button type="button" onclick="randomize()">Randomize!</button>
-        </article>
-      </section>
+<html lang="en">
+<head>
+<title>R3DZ3R's Website LOL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+  function randomize() { 
+    document.getElementById("demo").innerHTML = "Hello JavaScript!";
+  }
+</script>
+
+<script type="application/ld+json">
+{"description":"I made Fancade games!","url":"https://r3dz3r.github.io/","@type":"WebSite","headline":"R3DZ3R","name":"R3DZ3R","@context":"https://schema.org"}
+</script>
+      
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  padding: 10px;
+}
+
+/* Style the header */
+header {
+  background-color: #FF4865;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #FFFFFF;
+}
+
+nav {
+  width: 20%;
+  padding: 20px;
+  background-color: #FF9696;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #FF4865;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Hi!</h2>
+</header>
+
+<section>
+
+  <nav>
+  <!--
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  -->
+  <p>Return to <a href="https://r3dz3r.github.io/">home</a>?</p>
+  </nav>
+
+  
+  <article>
+      <h1>Fancade Game Title Generator</h1>
+      <p id="demo">Click the button for result</p>
+      <button type="button" onclick="randomize()">Randomize!</button>
     </div>
-  </body>
+  </article>
+</section>
+
+<footer>
+  <p><small>uwu</small></p>
+</footer>
+
+</body>
 </html>
+

@@ -18,6 +18,7 @@ function randomize() {
 
 
 function randomizePlus() { 
+  out = ''
   for (let i = 0; i < 2; i++) {
     if (Math.floor(Math.random()) == 0) {
       list = key;

@@ -8,8 +8,9 @@ var out = '', list = [], listl = 0;
 
 
 function randomize() { 
+  out = ''
   for (let i = 0; i < 2; i++) {
-    out = out.concat(key[Math.floor(Math.random() * keyl)]);
+    out = out.concat(key[Math.floor(Math.random() * keyl)]).concat(' ');
   }
   document.getElementById("demo").innerHTML = out;
 }
@@ -25,7 +26,7 @@ function randomizePlus() {
       list = keyPlus;
       listl = keyPlusl;
     }
-    out = out.concat(list[Math.floor(Math.random() * listl)]);
+    out = out.concat(list[Math.floor(Math.random() * listl)]).concat(' ');
   }
   document.getElementById("demo").innerHTML = out;
 }

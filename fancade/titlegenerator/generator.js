@@ -9,7 +9,7 @@ var out = '', list = [], listl = 0;
 
 function randomize() { 
   for (let i = 0; i < 2; i++) {
-    var out = out.concat(key[Math.floor(Math.random() * keyl)]);
+    out = out.concat(key[Math.floor(Math.random() * keyl)]);
   }
   document.getElementById("demo").innerHTML = out;
 }
@@ -25,7 +25,7 @@ function randomizePlus() {
       list = keyPlus;
       listl = keyPlusl;
     }
-    var out = out.concat(list[Math.floor(Math.random() * listl)]);
+    out = out.concat(list[Math.floor(Math.random() * listl)]);
   }
   document.getElementById("demo").innerHTML = out;
 }

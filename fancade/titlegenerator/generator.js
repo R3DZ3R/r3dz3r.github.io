@@ -3,7 +3,7 @@ const keyPlus = ['Laser', 'Destructive', 'Giga', 'Flower', 'Red', 'Green', 'Blue
 
 var keyl = key.length;
 var keyPlusl = keyPlus.length;
-var out, list, listl;
+var out = '', list = [], listl = 0;
 
 
 

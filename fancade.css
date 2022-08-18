@@ -19,13 +19,13 @@ header {
 img {
 	width:256px;
 	height:256px;
-   margin-top: 10%;
-   margin-bottom: 10%;
-   margin-left: 10%;
-   margin-right: 10%;
+   	margin-top: 10%;
+   	margin-bottom: 10%;
+   	margin-left: 10%;
+   	margin-right: 10%;
 	padding:0px;
-   border-radius: 10px;
-   border: 5px #5b5b76 solid;
+   	border-radius: 10px;
+   	border: 5px #5b5b76 solid;
 }
 
 .vbCon {

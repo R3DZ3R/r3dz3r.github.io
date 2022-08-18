@@ -16,6 +16,18 @@ header {
   src: url(baloo.woff) format('woff');
 }
 
+img {
+	width:256px;
+	height:256px;
+   margin-top: 10%;
+   margin-bottom: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+	padding:0px;
+   border-radius: 10px;
+   border: 5px #5b5b76 solid;
+}
+
 .vbCon {
 	display:flex;
 	align-items:center;
@@ -522,7 +534,7 @@ input:hover {
 /*Outline CSS*/
 
 .outline {
-   padding: 0;
+   padding: 0px;
    margin-top: 1%;
    margin-bottom: 1%;
    margin-left: 1%;
